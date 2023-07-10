@@ -1,0 +1,155 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  transition: 2s;
+}
+
+.dark-mode {
+  background-color: rgb(23, 23, 23);
+  color: white;
+  transition: 1s;
+}
+</style>
+</head>
+<body>
+    
+<button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   let element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Loading Example</title>
+  <style>
+    /* Styling for the loading spinner */
+    .loader {
+      border: 16px solid #f3f3f3;
+      border-top: 16px solid #3498db;
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      animation: spin 2s linear infinite;
+      margin: 50px auto;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div id="loader" class="loader"></div>
+
+  <script>
+    // Define a class for the loading functionality
+    class Loading {
+      constructor(delay) {
+        this.delay = delay;
+        this.loader = document.getElementById("loader");
+      }
+
+      startLoading() {
+        this.loader.style.display = "block";
+        setTimeout(this.finishLoading.bind(this), this.delay);
+      }
+
+      finishLoading() {
+        this.loader.style.display = "none";
+        console.log("Loading complete!");
+      }
+    }
+
+    // Create an instance of the Loading class with the desired delay
+    const loading = new Loading(2000); // 2 seconds
+    loading.startLoading();
+  </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Loading Example</title>
+  <style>
+    .loading {
+      /* Add your loading styles here */
+      border: 16px solid #f3f3f3;
+      border-top: 16px solid #3498db;
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      animation: spin 2s linear infinite;
+      margin: 50px auto;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .content {
+      display: none;
+      /* Add your content styles here */
+      text-align: center;
+      font-size: 0px;
+    }
+  </style>
+</head>
+<body>
+  <div id="loadingDiv" class="loading">
+    <!-- Add your loading content here -->
+    <p>Loading...</p>
+  </div>
+
+  <div id="contentDiv" class="content">
+    <!-- Add your content here -->
+    <h1>Welcome!</h1>
+    <p>This is the content that will be shown after the loading finishes.</p>
+  </div>
+
+  <script>
+    // Simulate a loading function
+    function loadingFunction() {
+      var loadingDiv = document.getElementById("loadingDiv");
+      var contentDiv = document.getElementById("contentDiv");
+
+      // Show the loading div
+      loadingDiv.style.display = "block";
+
+      // Hide the content div
+      contentDiv.style.display = "none";
+
+      // Simulating a 3-second loading delay
+      setTimeout(function() {
+        // Hide the loading div
+        loadingDiv.style.display = "none";
+
+        // Show the content div
+        contentDiv.style.display = "block";
+      }, 3000);
+    }
+
+    // Call the loading function when the page finishes loading
+    window.onload = function() {
+      loadingFunction();
+    };
+  </script>
+</body>
+</html>
