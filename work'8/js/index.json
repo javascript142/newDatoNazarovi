@@ -1,0 +1,16 @@
+{
+    "name": "beqa ",
+    "surname":  "beridze",
+    "visible": [
+        {
+            "city": "paris",
+            "month": "januar",
+            "days": 25
+        },
+        {
+            "city": "paris",
+            "month": "may",
+            "day": 20
+        }
+    ]
+}

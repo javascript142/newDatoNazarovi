@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="reg_content">
+        <form action="">
+                <h1>Register</h1>
+                <input type="text"  id="Name" placeholder="Enter your  Name" pattern="^[A-Za-z]+$">
+                <input type="text"  id="LastName" placeholder="Enter your last name" pattern="^[A-Za-z]+$" >
+                <input type="text"  id="UserName" placeholder="Enter your UserName" pattern="^[a-zA-Z0-9_]{5,10}$" >
+                <input type="email"  id="Email" placeholder="Enter your Email" pattern="^[\w.-]+@[a-zA-Z_-]+?(?:\.[a-zA-Z]{2,6})+$" >
+                <input type="password"  id="password" placeholder="Enter your password" pattern="^\+?\d+$" >
+                <input type="button" value="submit" onclick="localStrg()">
+            </form>  
+            <form action="">
+                <h1>log IN</h1>
+                <input type="text" id="UserEmail" placeholder="Enter your Email">
+                <input type="text" id="UserPassword" placeholder="Enter your password">
+                <button onclick="sessionStrg()">Submit</button>
+            </form>     
+    </div>
+    
+
+    <script src="./index.js"></script>
+</body>
+</html>
