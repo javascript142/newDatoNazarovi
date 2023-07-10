@@ -1,0 +1,33 @@
+body{
+  background-color: white;
+  color: black;
+  transition: 2s;
+}
+.dark-mode{
+  background-color: rgb(23, 23, 23);
+  color: white;
+  transition: 2s;
+}
+.content{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+.box h1{
+  font-size: 50px;
+  font-family: var(--ruda);
+}
+.box p{
+  font-size: 25px;
+  font-family: var(--cover);
+}
+button{
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
