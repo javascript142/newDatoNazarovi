@@ -1,0 +1,324 @@
+
+
+@media only screen and (min-width:300px) {
+    body{
+        color: white;
+        background:  url(../assets/img/cover.avif) ;
+    }
+    input:not([type="checkbox"]){
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 3fr;
+        grid-template-columns: 3fr;
+        margin: 10px;
+        -webkit-box-shadow: inset 2px 5px 10px rgb(53, 53, 63);
+                box-shadow: inset 2px 5px 10px rgb(53, 53, 63);
+        color: white;
+        background: none;
+        border: none;
+        outline: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        width: 200px;
+        text-align: center;
+    }
+    input[type="submit"]{
+        width: 250px;
+    }
+    .flex{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: baseline;
+            -ms-flex-align: baseline;
+                align-items: baseline;
+        gap: 20px;
+    }
+    p{
+        font-size: 20px;
+        text-align:center;
+    }
+    input[type="submit"]:hover{
+        -webkit-box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+                box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+        
+    }
+    .conteiner{
+        display: -ms-grid;
+        display: grid;
+        place-content: center;
+        height: 80vh;
+    }
+    .box{
+        display: -ms-grid;
+        display: grid;
+        place-content: center;
+        background-color: rgb(25, 24, 24);
+        padding: 20px;
+        border-radius: 40px;
+        width: 280px;
+        height: 385px;
+    }
+    a{
+        color: wheat;
+    
+    }
+     
+}
+@media only  screen and (min-width:410px) {
+    body{
+        color: white;
+        background:  url(../assets/img/cover.avif) ;
+    }
+    input:not([type="checkbox"]){
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 3fr;
+        grid-template-columns: 3fr;
+        margin: 10px;
+        -webkit-box-shadow: inset 2px 5px 10px rgb(53, 53, 63);
+                box-shadow: inset 2px 5px 10px rgb(53, 53, 63);
+        color: white;
+        background: none;
+        border: none;
+        outline: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        width: 280px;
+        text-align: center;
+    }
+    input[type="submit"]{
+        width: 330px;
+    }
+    .flex{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: baseline;
+            -ms-flex-align: baseline;
+                align-items: baseline;
+        gap: 20px;
+    }
+    p{
+        font-size: 20px;
+        text-align:center;
+    }
+    input[type="submit"]:hover{
+        -webkit-box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+                box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+        
+    }
+    .conteiner{
+        display: -ms-grid;
+        display: grid;
+        place-content: center;
+        height: 80vh;
+    }
+    .box{
+        display: -ms-grid;
+        display: grid;
+        place-content: center;
+        background-color: rgb(25, 24, 24);
+        padding: 20px;
+        border-radius: 40px;
+        width: 350px;
+        height: 385px;
+    }
+    a{
+        color: wheat;
+    
+    }
+     
+}
+@media only screen and (min-width:700px) {
+    body{
+        color: white;
+        background:  url(../assets/img/cover.avif) ;
+    }
+    input:not([type="checkbox"]){
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 3fr;
+        grid-template-columns: 3fr;
+        margin: 10px;
+        -webkit-box-shadow: inset 2px 5px 10px rgb(53, 53, 63);
+                box-shadow: inset 2px 5px 10px rgb(53, 53, 63);
+        color: white;
+        background: none;
+        border: none;
+        outline: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        width: 400px;
+        text-align: center;
+    }
+    input[type="submit"]{
+        width: 450px;
+    }
+    .flex{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: baseline;
+            -ms-flex-align: baseline;
+                align-items: baseline;
+        gap: 20px;
+    }
+    p{
+        font-size: 20px;
+        text-align:center;
+    }
+    input[type="submit"]:hover{
+        -webkit-box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+                box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+        
+    }
+    .conteiner{
+        display: -ms-grid;
+        display: grid;
+        place-content: center;
+        height: 80vh;
+    }
+    .box{
+        display: -ms-grid;
+        display: grid;
+        place-content: center;
+        background-color: rgb(25, 24, 24);
+        padding: 20px;
+        border-radius: 40px;
+        width: 500px;
+        height: 385px;
+    }
+    a{
+        color: wheat;
+    
+    }
+}
+@media only screen and (min-width:1000px) {
+    body{
+        color: white;
+        background:  url(../assets/img/cover.avif) ;
+    }
+    input:not([type="checkbox"]){
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 3fr;
+        grid-template-columns: 3fr;
+        margin: 10px;
+        -webkit-box-shadow: inset 2px 5px 10px rgb(53, 53, 63);
+                box-shadow: inset 2px 5px 10px rgb(53, 53, 63);
+        color: white;
+        background: none;
+        border: none;
+        outline: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        width: 400px;
+        text-align: center;
+    }
+    input[type="submit"]{
+        width: 450px;
+    }
+    .flex{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: baseline;
+            -ms-flex-align: baseline;
+                align-items: baseline;
+        gap: 20px;
+    }
+    p{
+        font-size: 20px;
+        text-align:center;
+    }
+    input[type="submit"]:hover{
+        -webkit-box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+                box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+        
+    }
+    .conteiner{
+        display: -ms-grid;
+        display: grid;
+        place-content: center;
+        height: 80vh;
+    }
+    .box{
+        display: -ms-grid;
+        display: grid;
+        place-content: center;
+        background-color: rgb(25, 24, 24);
+        padding: 20px;
+        border-radius: 40px;
+        width: 500px;
+        height: 385px;
+    }
+    a{
+        color: wheat;
+    
+    }
+}
+@media only screen and (min-width:1400px) {
+    body{
+        color: white;
+        background:  url(../assets/img/cover.avif) ;
+    }
+    input:not([type="checkbox"]){
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 3fr;
+        grid-template-columns: 3fr;
+        margin: 10px;
+        -webkit-box-shadow: inset 2px 5px 10px rgb(53, 53, 63);
+                box-shadow: inset 2px 5px 10px rgb(53, 53, 63);
+        color: white;
+        background: none;
+        border: none;
+        outline: none;
+        padding: 10px 20px;
+        border-radius: 20px;
+        width: 400px;
+        text-align: center;
+    }
+    input[type="submit"]{
+        width: 450px;
+    }
+    .flex{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: baseline;
+            -ms-flex-align: baseline;
+                align-items: baseline;
+        gap: 20px;
+    }
+    p{
+        font-size: 20px;
+        text-align:center;
+    }
+    input[type="submit"]:hover{
+        -webkit-box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+                box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+        
+    }
+    .conteiner{
+        display: -ms-grid;
+        display: grid;
+        place-content: center;
+        height: 80vh;
+    }
+    .box{
+        display: -ms-grid;
+        display: grid;
+        place-content: center;
+        background-color: rgb(25, 24, 24);
+        padding: 20px;
+        border-radius: 40px;
+        width: 600px;
+        height: 385px;
+    }
+    a{
+        color: wheat;
+    
+    }
+}
