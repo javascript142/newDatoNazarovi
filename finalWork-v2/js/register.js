@@ -1,12 +1,12 @@
 function userReg(){
     let userInf=
      {
-        "UserPhoneNamber":document.getElementById("UserPhoneNamber").value,
+        "PhoneNamber":document.getElementById("UserPhoneNamber").value,
         "UserName":document.getElementById("UserName").value,
-        "UserEmail":document.getElementById("UserEmail").value, 
-        "UserPassword":document.getElementById("UserPassword").value,
+        "Email":document.getElementById("UserEmail").value, 
+        "Password":document.getElementById("UserPassword").value,
      }
-     localStorage.setItem(userInf, JSON.stringify(userInf));
+     localStorage.setItem("userInf", JSON.stringify(userInf));
 }
 userReg();
 const UserForm = document.querySelector("form");
