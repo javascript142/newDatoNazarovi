@@ -1,0 +1,314 @@
+
+@media only screen and (min-width:300px) {
+  body{
+    background-color: white;
+    color: black;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+  }
+  .dark-mode{
+    background-color: rgb(23, 23, 23);
+    color: white;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+  }
+  .content{  
+    padding-top: 40px;
+   text-align: center;
+    height: 110%;
+  }
+  .box h1{
+    font-size: 50px;
+    font-family: var(--ruda);
+  }
+  .box p{
+    font-size: 25px;
+    font-family: var(--cover);
+  }
+  button{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+  }
+  
+}
+@media only screen and (min-width: 468px) {
+  body{
+    background-color: white;
+    color: black;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+  }
+  .dark-mode{
+    background-color: rgb(23, 23, 23);
+    color: white;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+  }
+  .content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+  }
+  .box h1{
+    font-size: 50px;
+    font-family: var(--ruda);
+  }
+  .box p{
+    font-size: 25px;
+    font-family: var(--cover);
+  }
+  button{
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+  }
+  
+}
+@media only screen and (min-width:  668px) {
+  body{
+    background-color: white;
+    color: black;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+  }
+  .dark-mode{
+    background-color: rgb(23, 23, 23);
+    color: white;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+  }
+  .content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+  }
+  .box h1{
+    font-size: 50px;
+    font-family: var(--ruda);
+  }
+  .box p{
+    font-size: 25px;
+    font-family: var(--cover);
+  }
+  button{
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+  }
+  
+}
+@media only screen and (min-width:  768px) {
+  body{
+    background-color: white;
+    color: black;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+  }
+  .dark-mode{
+    background-color: rgb(23, 23, 23);
+    color: white;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+  }
+  .content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+  }
+  .box h1{
+    font-size: 50px;
+    font-family: var(--ruda);
+  }
+  .box p{
+    font-size: 25px;
+    font-family: var(--cover);
+  }
+  button{
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+  }
+  
+}
+@media only screen and (min-width:  968px) {
+  body{
+    background-color: white;
+    color: black;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+  }
+  .dark-mode{
+    background-color: rgb(23, 23, 23);
+    color: white;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+  }
+  .content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+  }
+  .box h1{
+    font-size: 50px;
+    font-family: var(--ruda);
+  }
+  .box p{
+    font-size: 25px;
+    font-family: var(--cover);
+  }
+  button{
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+  }
+  
+}
+@media only screen and (min-width:  1200px) {
+  body{
+    background-color: white;
+    color: black;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+  }
+  .dark-mode{
+    background-color: rgb(23, 23, 23);
+    color: white;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+  }
+  .content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+  }
+  .box h1{
+    font-size: 50px;
+    font-family: var(--ruda);
+  }
+  .box p{
+    font-size: 25px;
+    font-family: var(--cover);
+  }
+  button{
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+  }
+  
+}
+@media only screen and (min-width:  1900px) {
+  body{
+    background-color: white;
+    color: black;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+  }
+  .dark-mode{
+    background-color: rgb(23, 23, 23);
+    color: white;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+  }
+  .content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+  }
+  .box h1{
+    font-size: 50px;
+    font-family: var(--ruda);
+  }
+  .box p{
+    font-size: 25px;
+    font-family: var(--cover);
+  }
+  button{
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+  }
+  
+}
